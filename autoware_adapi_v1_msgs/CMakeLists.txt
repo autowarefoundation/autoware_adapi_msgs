@@ -22,8 +22,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   planning/msg/SteeringFactorArray.msg
   planning/msg/VelocityFactor.msg
   planning/msg/VelocityFactorArray.msg
-  system/msg/MRMState.msg
-  system/srv/OperateMRM.srv
+  system/msg/MrmState.msg
+  system/srv/OperateMrm.srv
   DEPENDENCIES
     builtin_interfaces
     std_msgs
