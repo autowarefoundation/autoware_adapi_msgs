@@ -16,6 +16,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   routing/srv/ClearRoute.srv
   routing/srv/SetRoute.srv
   routing/srv/SetRoutePoints.srv
+  operation_mode/msg/OperationModeState.msg
+  operation_mode/srv/ChangeOperationMode.srv
   motion/msg/MotionState.msg
   motion/srv/AcceptStart.srv
   planning/msg/SteeringFactor.msg
