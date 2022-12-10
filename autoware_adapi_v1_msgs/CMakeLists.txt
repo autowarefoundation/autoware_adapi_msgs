@@ -6,6 +6,11 @@ ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   common/msg/ResponseStatus.msg
+  cooperation/msg/CooperationDecision.msg
+  cooperation/msg/CooperationRequest.msg
+  cooperation/msg/CooperationResponse.msg
+  cooperation/msg/CooperationStatus.msg
+  cooperation/msg/CooperationTarget.msg
   localization/msg/LocalizationInitializationState.msg
   localization/srv/InitializeLocalization.srv
   routing/msg/RouteState.msg
@@ -27,8 +32,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   system/msg/MrmState.msg
   DEPENDENCIES
     builtin_interfaces
-    std_msgs
     geometry_msgs
+    std_msgs
+    unique_identifier_msgs
 )
 
 ament_auto_package()
