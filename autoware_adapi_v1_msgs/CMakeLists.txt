@@ -10,7 +10,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   cooperation/msg/CooperationRequest.msg
   cooperation/msg/CooperationResponse.msg
   cooperation/msg/CooperationStatus.msg
+  cooperation/msg/CooperationStatusArray.msg
   cooperation/msg/CooperationTarget.msg
+  cooperation/srv/SetCooperationDecisions.srv
   localization/msg/LocalizationInitializationState.msg
   localization/srv/InitializeLocalization.srv
   routing/msg/RouteState.msg
