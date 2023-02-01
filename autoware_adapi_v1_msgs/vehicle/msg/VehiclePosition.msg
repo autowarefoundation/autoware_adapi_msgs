@@ -1,0 +1,3 @@
+std_msgs/Header header
+geometry_msgs/Pose pose
+autoware_adapi_v1_msgs/GeoPosition geo_position
