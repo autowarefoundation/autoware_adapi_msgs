@@ -29,9 +29,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   vehicle/msg/VehicleDoor.msg
   vehicle/msg/VehicleDoorStatus.msg
   vehicle/msg/VehicleGear.msg
+  vehicle/msg/VehicleHazardLight.msg
   vehicle/msg/VehicleMotion.msg
   vehicle/msg/VehiclePosition.msg
-  vehicle/msg/VehicleSignal.msg
+  vehicle/msg/VehicleState.msg
+  vehicle/msg/VehicleTurnIndicator.msg
   DEPENDENCIES
     builtin_interfaces
     std_msgs
