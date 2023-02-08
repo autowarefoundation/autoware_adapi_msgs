@@ -20,6 +20,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   operation_mode/srv/ChangeOperationMode.srv
   motion/msg/MotionState.msg
   motion/srv/AcceptStart.srv
+  perception/msg/DynamicObject.msg
+  perception/msg/DynamicObjectArray.msg
+  perception/msg/PredictedPath.msg
+  perception/msg/Semantic.msg
+  perception/msg/Shape.msg
+  perception/msg/State.msg
   planning/msg/SteeringFactor.msg
   planning/msg/SteeringFactorArray.msg
   planning/msg/VelocityFactor.msg
@@ -29,6 +35,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     builtin_interfaces
     std_msgs
     geometry_msgs
+    unique_identifier_msgs
 )
 
 ament_auto_package()
