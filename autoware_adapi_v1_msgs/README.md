@@ -9,6 +9,10 @@ Alternatively, codes and messages can be used for warnings or additional informa
 If the API fails, set success to false, code to the related status code, and message to the information.
 The status code zero is reserved for success. The status code 50000 or over are also reserved for typical cases.
 
+## Geometry
+
+[See here for shape message](./geometry/shape.md).
+
 ## Routing
 
 The routing service support two formats. One uses pose and the other uses map dependent data directly.
