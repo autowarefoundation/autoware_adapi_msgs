@@ -1,2 +1,2 @@
-geometry_msgs/PoseWithCovarianceStamped[] path
+geometry_msgs/Pose[] path
 float64 confidence
