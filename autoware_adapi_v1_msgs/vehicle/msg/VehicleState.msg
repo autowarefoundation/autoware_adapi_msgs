@@ -2,3 +2,4 @@ builtin_interfaces/Time stamp
 autoware_adapi_v1_msgs/VehicleGear gear
 autoware_adapi_v1_msgs/VehicleTurnIndicator turn_indicator
 autoware_adapi_v1_msgs/VehicleHazardLight hazard_light
+float32 energy_level
