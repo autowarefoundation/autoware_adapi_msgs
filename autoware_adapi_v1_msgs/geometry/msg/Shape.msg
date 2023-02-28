@@ -8,4 +8,5 @@ uint8 CYLINDER = 4
 # variables
 uint8 shape
 geometry_msgs/Point[] points
-geometry_msgs/Vector3 dimensions
+float64 radius
+float64 height
