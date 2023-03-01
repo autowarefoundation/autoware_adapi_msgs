@@ -23,7 +23,6 @@ All points of the polygon should be on the same plane.
 | PRISM    | polygon | -      | height |
 | CYLINDER | -       | radius | height |
 
-
 ## Routing
 
 The routing service support two formats. One uses pose and the other uses map dependent data directly.
@@ -39,6 +38,5 @@ The initialization initialization state does not reflect localization errors. Us
 
 [api-localization]: https://autowarefoundation.github.io/autoware-documentation/main/design/autoware-interfaces/ad-api/list/api/localization/
 [api-routing]: https://autowarefoundation.github.io/autoware-documentation/main/design/autoware-interfaces/ad-api/list/api/routing/
-
 [shape_msgs]: https://github.com/ros2/common_interfaces/tree/rolling/shape_msgs
 [visualization_msgs]: https://github.com/ros2/common_interfaces/tree/rolling/visualization_msgs
