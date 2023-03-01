@@ -1,0 +1,4 @@
+autoware_adapi_v1_msgs/GeoPoint geo_position
+geometry_msgs/PoseWithCovarianceStamped pose_with_covariance
+geometry_msgs/TwistWithCovarianceStamped twist_with_covariance
+geometry_msgs/AccelWithCovarianceStamped accel_with_covariance
