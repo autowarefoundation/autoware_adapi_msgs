@@ -11,6 +11,8 @@ The status code zero is reserved for success. The status code 50000 or over are 
 
 ## Geometry
 
+The shape messages are used for maps, detection areas, detected objects, etc.
+Unlike [shape_msgs][shape_msgs] and [visualization_msgs][visualization_msgs], it needs to support both 2D and 3D shapes.
 For polygons, the order of the points should be counterclockwise from the positive direction of the normal vector.
 All points of the polygon should be on the same plane.
 
@@ -20,6 +22,7 @@ All points of the polygon should be on the same plane.
 | CIRCLE   | -       | radius | -      |
 | PRISM    | polygon | -      | height |
 | CYLINDER | -       | radius | height |
+
 
 ## Routing
 
@@ -36,3 +39,6 @@ The initialization initialization state does not reflect localization errors. Us
 
 [api-localization]: https://autowarefoundation.github.io/autoware-documentation/main/design/autoware-interfaces/ad-api/list/api/localization/
 [api-routing]: https://autowarefoundation.github.io/autoware-documentation/main/design/autoware-interfaces/ad-api/list/api/routing/
+
+[shape_msgs]: https://github.com/ros2/common_interfaces/tree/rolling/shape_msgs
+[visualization_msgs]: https://github.com/ros2/common_interfaces/tree/rolling/visualization_msgs
