@@ -5,7 +5,5 @@ uint8 OPENED = 2
 uint8 CLOSED = 3
 uint8 OPENING = 4
 uint8 CLOSING = 5
-uint8 FREE_MODE = 6
-uint8 MANUAL_MODE = 7
 
 uint8 status

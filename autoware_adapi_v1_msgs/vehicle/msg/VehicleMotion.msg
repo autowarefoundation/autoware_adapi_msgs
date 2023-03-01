@@ -1,4 +1,0 @@
-std_msgs/Header header
-geometry_msgs/TwistWithCovariance twist
-geometry_msgs/AccelWithCovariance accel
-float64 steering_tire_angle

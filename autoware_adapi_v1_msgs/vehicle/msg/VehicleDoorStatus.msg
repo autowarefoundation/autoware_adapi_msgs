@@ -1,2 +1,0 @@
-builtin_interfaces/Time stamp
-autoware_adapi_v1_msgs/VehicleDoor[] doors
