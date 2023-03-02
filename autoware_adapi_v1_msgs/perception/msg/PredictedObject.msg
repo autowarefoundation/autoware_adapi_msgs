@@ -1,5 +1,5 @@
-unique_identifier_msgs/UUID object_id
+unique_identifier_msgs/UUID id
 float64 existence_probability
 autoware_adapi_v1_msgs/ObjectClassification[] classification
-autoware_adapi_v1_msgs/PredictedObjectKinematics kinematics
+autoware_adapi_v1_msgs/ObjectKinematics kinematics
 autoware_adapi_v1_msgs/Shape shape

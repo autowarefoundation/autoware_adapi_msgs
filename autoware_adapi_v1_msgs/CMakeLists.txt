@@ -21,9 +21,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   motion/msg/MotionState.msg
   motion/srv/AcceptStart.srv
   perception/msg/ObjectClassification.msg
+  perception/msg/ObjectKinematics.msg
   perception/msg/PredictedObject.msg
-  perception/msg/PredictedObjectKinematics.msg
-  perception/msg/PredictedObjects.msg
+  perception/msg/PredictedObjectArray.msg
   perception/msg/PredictedPath.msg
   perception/msg/Shape.msg
   planning/msg/SteeringFactor.msg

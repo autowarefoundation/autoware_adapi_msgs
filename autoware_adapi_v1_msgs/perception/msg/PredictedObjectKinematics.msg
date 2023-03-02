@@ -1,5 +1,0 @@
-geometry_msgs/PoseWithCovariance initial_pose_with_covariance
-geometry_msgs/TwistWithCovariance initial_twist_with_covariance
-geometry_msgs/AccelWithCovariance initial_acceleration_with_covariance
-
-autoware_adapi_v1_msgs/PredictedPath[] predicted_paths

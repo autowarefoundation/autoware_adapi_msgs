@@ -1,0 +1,5 @@
+geometry_msgs/PoseWithCovariance pose
+geometry_msgs/TwistWithCovariance twist
+geometry_msgs/AccelWithCovariance accel
+
+autoware_adapi_v1_msgs/PredictedPath[] predicted_paths
