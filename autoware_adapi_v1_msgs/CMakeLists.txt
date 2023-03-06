@@ -25,7 +25,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   planning/msg/VelocityFactor.msg
   planning/msg/VelocityFactorArray.msg
   system/msg/MrmState.msg
-  vehicle/msg/GeoPoint.msg
+  vehicle/msg/GeoPointStamped.msg
   vehicle/msg/DoorStatus.msg
   vehicle/msg/DoorStatusArray.msg
   vehicle/msg/Gear.msg
