@@ -1,0 +1,12 @@
+# constants
+uint16 BLIND_SPOT=1
+uint16 CROSSWALK=2
+uint16 DETECTION_AREA=3
+uint16 INTERSECTION=4
+uint16 MERGE_FROM_PRIVATE=5
+uint16 NO_STOPPING_AREA=6
+uint16 WALKWAY=7
+
+# variables
+uint16 type
+autoware_adapi_v1_msgs/Shape2D shape
