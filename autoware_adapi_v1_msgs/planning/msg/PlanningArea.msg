@@ -9,4 +9,4 @@ uint16 WALKWAY=7
 
 # variables
 uint16 type
-autoware_adapi_v1_msgs/Shape2D shape
+autoware_adapi_v1_msgs/Shape shape

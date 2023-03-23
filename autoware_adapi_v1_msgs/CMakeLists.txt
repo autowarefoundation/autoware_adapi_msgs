@@ -6,7 +6,7 @@ ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   common/msg/ResponseStatus.msg
-  common/msg/Shape2D.msg
+  common/msg/Shape.msg
   localization/msg/LocalizationInitializationState.msg
   localization/srv/InitializeLocalization.srv
   routing/msg/RouteState.msg
@@ -21,8 +21,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   operation_mode/srv/ChangeOperationMode.srv
   motion/msg/MotionState.msg
   motion/srv/AcceptStart.srv
-  planning/msg/DetectArea.msg
-  planning/msg/DetectAreaArray.msg
+  planning/msg/PlanningArea.msg
+  planning/msg/PlanningAreaArray.msg
   planning/msg/SteeringFactor.msg
   planning/msg/SteeringFactorArray.msg
   planning/msg/VelocityFactor.msg
