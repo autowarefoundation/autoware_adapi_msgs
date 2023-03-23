@@ -20,12 +20,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   operation_mode/srv/ChangeOperationMode.srv
   motion/msg/MotionState.msg
   motion/srv/AcceptStart.srv
+  perception/msg/DynamicObject.msg
+  perception/msg/DynamicObjectArray.msg
+  perception/msg/DynamicObjectKinematics.msg
+  perception/msg/DynamicObjectPath.msg
   perception/msg/ObjectClassification.msg
-  perception/msg/ObjectKinematics.msg
-  perception/msg/PredictedObject.msg
-  perception/msg/PredictedObjectArray.msg
-  perception/msg/PredictedPath.msg
-  perception/msg/Shape.msg
+  perception/msg/ObjectShape.msg
   planning/msg/SteeringFactor.msg
   planning/msg/SteeringFactorArray.msg
   planning/msg/VelocityFactor.msg
