@@ -6,4 +6,4 @@ uint8 REVERSE = 3
 uint8 PARK = 4
 uint8 LOW = 5
 
-int8 status
+uint8 status
