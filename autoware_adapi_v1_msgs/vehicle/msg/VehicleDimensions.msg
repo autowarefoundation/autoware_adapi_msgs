@@ -7,3 +7,4 @@ float32 rear_overhang
 float32 left_overhang
 float32 right_overhang
 float32 height
+geometry_msgs/Polygon footprint
