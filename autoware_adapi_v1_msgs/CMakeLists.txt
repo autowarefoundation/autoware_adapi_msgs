@@ -11,6 +11,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   routing/msg/RouteState.msg
   routing/msg/Route.msg
   routing/msg/RouteData.msg
+  routing/msg/RouteOption.msg
   routing/msg/RoutePrimitive.msg
   routing/msg/RouteSegment.msg
   routing/srv/ClearRoute.srv
