@@ -8,7 +8,7 @@ uint16 AVOIDANCE_PATH_CHANGE = 3
 uint16 AVOIDANCE_PATH_RETURN = 4
 uint16 STATION = 5
 uint16 PULL_OUT = 6
-uint16 PULL_OVER = 7
+uint16 GOAL_PLANNER = 7
 uint16 EMERGENCY_OPERATION = 8
 
 # constants for direction
