@@ -26,7 +26,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   perception/msg/DynamicObjectKinematics.msg
   perception/msg/DynamicObjectPath.msg
   perception/msg/ObjectClassification.msg
-  perception/msg/ObjectShape.msg
   planning/msg/SteeringFactor.msg
   planning/msg/SteeringFactorArray.msg
   planning/msg/VelocityFactor.msg
@@ -36,6 +35,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     builtin_interfaces
     std_msgs
     geometry_msgs
+    shape_msgs
     unique_identifier_msgs
 )
 
