@@ -1,7 +1,21 @@
 # constants for common use
 uint16 UNKNOWN = 0
 
-# constants for type
+# constants for status
+uint16 APPROACHING = 1
+uint16 STOPPED = 2
+
+# variables
+geometry_msgs/Pose pose
+float32 distance
+uint16 status
+string module
+string detail
+autoware_adapi_v1_msgs/CooperationStatus[<=1] cooperation
+
+
+
+# deprecated constants for type
 uint16 SURROUNDING_OBSTACLE = 1
 uint16 ROUTE_OBSTACLE = 2
 uint16 INTERSECTION = 3
@@ -19,13 +33,5 @@ uint16 LANE_CHANGE = 14
 uint16 AVOIDANCE = 15
 uint16 EMERGENCY_STOP_OPERATION = 16
 
-# constants for status
-uint16 APPROACHING = 1
-uint16 STOPPED = 2
-
-# variables
-geometry_msgs/Pose pose
-float32 distance
+# deprecated variables
 uint16 type
-uint16 status
-string detail

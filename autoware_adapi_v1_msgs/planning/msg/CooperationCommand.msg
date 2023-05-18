@@ -1,2 +1,2 @@
-autoware_adapi_v1_msgs/CooperationTarget target
+unique_identifier_msgs/UUID uuid
 autoware_adapi_v1_msgs/CooperationDecision cooperator
