@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   routing/msg/RouteState.msg
   routing/msg/Route.msg
   routing/msg/RouteData.msg
+  routing/msg/RouteOption.msg
   routing/msg/RoutePrimitive.msg
   routing/msg/RouteSegment.msg
   routing/srv/ClearRoute.srv
@@ -27,15 +28,25 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   operation_mode/srv/ChangeOperationMode.srv
   motion/msg/MotionState.msg
   motion/srv/AcceptStart.srv
+  perception/msg/DynamicObject.msg
+  perception/msg/DynamicObjectArray.msg
+  perception/msg/DynamicObjectKinematics.msg
+  perception/msg/DynamicObjectPath.msg
+  perception/msg/ObjectClassification.msg
   planning/msg/SteeringFactor.msg
   planning/msg/SteeringFactorArray.msg
   planning/msg/VelocityFactor.msg
   planning/msg/VelocityFactorArray.msg
   system/msg/MrmState.msg
+  vehicle/msg/DoorLayout.msg
+  vehicle/msg/VehicleDimensions.msg
+  vehicle/srv/GetDoorLayout.srv
+  vehicle/srv/GetVehicleDimensions.srv
   DEPENDENCIES
     builtin_interfaces
     geometry_msgs
     std_msgs
+    shape_msgs
     unique_identifier_msgs
 )
 
