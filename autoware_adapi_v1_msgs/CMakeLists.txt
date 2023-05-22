@@ -6,13 +6,6 @@ ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   common/msg/ResponseStatus.msg
-  cooperation/msg/CooperationDecision.msg
-  cooperation/msg/CooperationRequest.msg
-  cooperation/msg/CooperationResponse.msg
-  cooperation/msg/CooperationStatus.msg
-  cooperation/msg/CooperationStatusArray.msg
-  cooperation/msg/CooperationTarget.msg
-  cooperation/srv/SetCooperationDecisions.srv
   localization/msg/LocalizationInitializationState.msg
   localization/srv/InitializeLocalization.srv
   routing/msg/RouteState.msg
@@ -37,6 +30,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   planning/msg/SteeringFactorArray.msg
   planning/msg/VelocityFactor.msg
   planning/msg/VelocityFactorArray.msg
+  planning/msg/CooperationCommand.msg
+  planning/msg/CooperationDecision.msg
+  planning/msg/CooperationStatus.msg
+  planning/srv/SetCooperationDecisions.srv
+  planning/srv/SetCooperationDefault.srv
+  planning/srv/GetCooperationDefault.srv
   system/msg/MrmState.msg
   vehicle/msg/DoorLayout.msg
   vehicle/msg/VehicleDimensions.msg
