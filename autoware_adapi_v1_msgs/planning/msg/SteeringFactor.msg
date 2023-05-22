@@ -8,7 +8,7 @@ uint16 STRAIGHT = 3
 
 # constants for status
 uint16 APPROACHING = 1
-uint16 EXECUTING = 3
+uint16 TURNING = 3
 
 # variables
 geometry_msgs/Pose[2] pose
@@ -34,7 +34,6 @@ uint16 EMERGENCY_OPERATION = 8
 
 # deprecated constants for status
 uint16 TRYING = 2
-uint16 TURNING = 3
 
 # deprecated variables
 uint16 type
