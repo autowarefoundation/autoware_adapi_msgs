@@ -5,7 +5,5 @@ geographic_msgs/GeoPointStamped geographic_pose
 
 # Local coordinate from the autoware
 geometry_msgs/PoseWithCovarianceStamped pose
-
-
 geometry_msgs/TwistWithCovarianceStamped twist
 geometry_msgs/AccelWithCovarianceStamped accel
