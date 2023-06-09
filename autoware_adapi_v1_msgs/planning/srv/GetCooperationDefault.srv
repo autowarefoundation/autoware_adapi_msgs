@@ -1,4 +1,3 @@
-string module
 ---
 autoware_adapi_v1_msgs/ResponseStatus status
-autoware_adapi_v1_msgs/CooperationDecision cooperator
+autoware_adapi_v1_msgs/CooperationDefault[] defaults

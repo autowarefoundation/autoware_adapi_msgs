@@ -32,6 +32,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   planning/msg/VelocityFactorArray.msg
   planning/msg/CooperationCommand.msg
   planning/msg/CooperationDecision.msg
+  planning/msg/CooperationDefault.msg
   planning/msg/CooperationStatus.msg
   planning/srv/SetCooperationDecisions.srv
   planning/srv/SetCooperationDefault.srv
