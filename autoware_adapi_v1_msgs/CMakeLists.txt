@@ -34,9 +34,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   planning/msg/CooperationDecision.msg
   planning/msg/CooperationDefault.msg
   planning/msg/CooperationStatus.msg
-  planning/srv/SetCooperationDecisions.srv
-  planning/srv/SetCooperationDefault.srv
-  planning/srv/GetCooperationDefault.srv
+  planning/srv/SetCooperationCommands.srv
+  planning/srv/SetCooperationDefaults.srv
+  planning/srv/GetCooperationDefaults.srv
   system/msg/MrmState.msg
   vehicle/msg/DoorLayout.msg
   vehicle/msg/VehicleDimensions.msg
