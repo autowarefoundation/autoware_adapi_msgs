@@ -1,6 +1,5 @@
 # Geographic point, using the WGS 84 reference ellipsoid.
-# Currently only support conversion from single MGRS Grid code or UTM
-# If the vector map do not contain correct MGRS Grid code or UTM, this data will be not valid
+# This data will be invalid If Autoware does not provide projection information between geographic coordinates and local coordinates. 
 geographic_msgs/GeoPointStamped geographic_pose
 
 # Local coordinate from the autoware
