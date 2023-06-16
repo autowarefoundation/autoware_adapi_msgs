@@ -32,12 +32,20 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   planning/msg/VelocityFactorArray.msg
   system/msg/MrmState.msg
   vehicle/msg/DoorLayout.msg
+  vehicle/msg/DoorStatus.msg
+  vehicle/msg/DoorStatusArray.msg
+  vehicle/msg/Gear.msg
+  vehicle/msg/HazardLights.msg
+  vehicle/msg/TurnIndicators.msg
+  vehicle/msg/VehicleStatus.msg
   vehicle/msg/VehicleDimensions.msg
+  vehicle/msg/VehicleKinematics.msg
   vehicle/srv/GetDoorLayout.srv
   vehicle/srv/GetVehicleDimensions.srv
   DEPENDENCIES
     builtin_interfaces
     std_msgs
+    geographic_msgs
     geometry_msgs
     shape_msgs
     unique_identifier_msgs
