@@ -32,11 +32,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   planning/msg/VelocityFactorArray.msg
   planning/msg/CooperationCommand.msg
   planning/msg/CooperationDecision.msg
-  planning/msg/CooperationDefault.msg
+  planning/msg/CooperationPolicy.msg
   planning/msg/CooperationStatus.msg
   planning/srv/SetCooperationCommands.srv
-  planning/srv/SetCooperationDefaults.srv
-  planning/srv/GetCooperationDefaults.srv
+  planning/srv/SetCooperationPolicies.srv
+  planning/srv/GetCooperationPolicies.srv
   system/msg/MrmState.msg
   vehicle/msg/DoorLayout.msg
   vehicle/msg/DoorStatus.msg
