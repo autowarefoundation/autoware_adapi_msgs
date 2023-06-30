@@ -1,5 +1,5 @@
-uint8 NONE = 1
-uint8 OPEN = 2
-uint8 CLOSE = 3
+uint8 OPEN = 1
+uint8 CLOSE = 2
 
+uint32 index
 uint8 command
