@@ -34,6 +34,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   vehicle/msg/DoorLayout.msg
   vehicle/msg/DoorStatus.msg
   vehicle/msg/DoorStatusArray.msg
+  vehicle/msg/FuelLevel.msg
   vehicle/msg/Gear.msg
   vehicle/msg/HazardLights.msg
   vehicle/msg/TurnIndicators.msg
