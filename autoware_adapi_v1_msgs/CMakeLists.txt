@@ -30,6 +30,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   planning/msg/SteeringFactorArray.msg
   planning/msg/VelocityFactor.msg
   planning/msg/VelocityFactorArray.msg
+  planning/msg/PlanningBehavior.msg
+  planning/msg/PlanningSequence.msg
   planning/msg/CooperationCommand.msg
   planning/msg/CooperationDecision.msg
   planning/msg/CooperationPolicy.msg
