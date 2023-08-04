@@ -55,8 +55,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     builtin_interfaces
     geographic_msgs
     geometry_msgs
-    std_msgs
     shape_msgs
+    std_msgs
     unique_identifier_msgs
 )
 
