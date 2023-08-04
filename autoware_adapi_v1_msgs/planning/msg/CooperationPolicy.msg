@@ -3,4 +3,4 @@ uint8 REQUIRED = 2
 
 string behavior
 string sequence
-uint8 type
+uint8 policy
