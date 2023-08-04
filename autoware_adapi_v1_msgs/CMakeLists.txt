@@ -31,6 +31,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   planning/msg/VelocityFactor.msg
   planning/msg/VelocityFactorArray.msg
   system/msg/MrmState.msg
+  vehicle/msg/DoorCommand.msg
   vehicle/msg/DoorLayout.msg
   vehicle/msg/DoorStatus.msg
   vehicle/msg/DoorStatusArray.msg
@@ -40,6 +41,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   vehicle/msg/VehicleStatus.msg
   vehicle/msg/VehicleDimensions.msg
   vehicle/msg/VehicleKinematics.msg
+  vehicle/srv/SetDoorCommand.srv
   vehicle/srv/GetDoorLayout.srv
   vehicle/srv/GetVehicleDimensions.srv
   DEPENDENCIES
