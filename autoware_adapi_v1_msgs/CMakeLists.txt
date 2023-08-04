@@ -31,6 +31,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   planning/msg/VelocityFactor.msg
   planning/msg/VelocityFactorArray.msg
   system/msg/MrmState.msg
+  system/msg/RtiState.msg
   vehicle/msg/DoorCommand.msg
   vehicle/msg/DoorLayout.msg
   vehicle/msg/DoorStatus.msg
