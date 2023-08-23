@@ -1,3 +1,4 @@
+# These constants are used in the behavior field of the SteeringFactor/VelocityFactor.
 string AVOIDANCE = "avoidance"
 string CROSSWALK = "crosswalk"
 string EMERGENCY_OPERATION = "emergency-operation"
