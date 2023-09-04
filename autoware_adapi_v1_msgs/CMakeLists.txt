@@ -30,6 +30,15 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   planning/msg/SteeringFactorArray.msg
   planning/msg/VelocityFactor.msg
   planning/msg/VelocityFactorArray.msg
+  planning/msg/PlanningBehavior.msg
+  planning/msg/PlanningSequence.msg
+  planning/msg/CooperationCommand.msg
+  planning/msg/CooperationDecision.msg
+  planning/msg/CooperationPolicy.msg
+  planning/msg/CooperationStatus.msg
+  planning/srv/SetCooperationCommands.srv
+  planning/srv/SetCooperationPolicies.srv
+  planning/srv/GetCooperationPolicies.srv
   system/msg/MrmState.msg
   vehicle/msg/DoorCommand.msg
   vehicle/msg/DoorLayout.msg
@@ -46,10 +55,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   vehicle/srv/GetVehicleDimensions.srv
   DEPENDENCIES
     builtin_interfaces
-    std_msgs
     geographic_msgs
     geometry_msgs
     shape_msgs
+    std_msgs
     unique_identifier_msgs
 )
 
