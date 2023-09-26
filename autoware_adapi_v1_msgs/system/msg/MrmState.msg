@@ -13,6 +13,7 @@ uint16 MRM_FAILED = 4
 uint16 NONE = 1
 uint16 EMERGENCY_STOP = 2
 uint16 COMFORTABLE_STOP = 3
+uint16 PULL_OVER = 3
 
 uint16 state
 uint16 behavior
