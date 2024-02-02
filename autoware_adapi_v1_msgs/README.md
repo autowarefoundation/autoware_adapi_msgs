@@ -22,5 +22,5 @@ The initialization initialization state does not reflect localization errors. Us
 
 <!-- link -->
 
-[api-localization]: https://autowarefoundation.github.io/autoware-documentation/main/design/autoware-interfaces/ad-api/list/api/localization/
-[api-routing]: https://autowarefoundation.github.io/autoware-documentation/main/design/autoware-interfaces/ad-api/list/api/routing/
+[api-localization]: https://autowarefoundation.github.io/autoware-documentation/v1.0/design/autoware-interfaces/ad-api/list/api/localization/
+[api-routing]: https://autowarefoundation.github.io/autoware-documentation/v1.0/design/autoware-interfaces/ad-api/list/api/routing/
