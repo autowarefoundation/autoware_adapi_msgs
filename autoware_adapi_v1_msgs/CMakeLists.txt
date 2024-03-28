@@ -40,6 +40,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   planning/srv/SetCooperationPolicies.srv
   planning/srv/GetCooperationPolicies.srv
   system/msg/MrmState.msg
+  system/msg/Heartbeat.msg
   vehicle/msg/DoorCommand.msg
   vehicle/msg/DoorLayout.msg
   vehicle/msg/DoorStatus.msg
