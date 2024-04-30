@@ -2,8 +2,8 @@
 Changelog for package autoware_adapi_version_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.2.1 (2024-04-30)
+------------------
 * build: set package versions to the package.xml files (`#55 <https://github.com/youtalk/autoware_adapi_msgs/issues/55>`_)
   * version 1.1.0
   * separate to build\_ and exec\_ depends
