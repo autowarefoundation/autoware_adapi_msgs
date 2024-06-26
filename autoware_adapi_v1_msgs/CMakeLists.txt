@@ -6,6 +6,7 @@ ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   common/msg/ResponseStatus.msg
+  common/msg/KeyValue.msg
   localization/msg/LocalizationInitializationState.msg
   localization/srv/InitializeLocalization.srv
   routing/msg/RouteState.msg
