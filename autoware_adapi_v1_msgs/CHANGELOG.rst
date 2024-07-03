@@ -2,6 +2,12 @@
 Changelog for package autoware_adapi_v1_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.3.0 (2024-07-03)
+------------------
+* feat(autoware_adapi_v1_msgs): remove energy status (`#58 <https://github.com/youtalk/autoware_adapi_msgs/issues/58>`_)
+* feat(autoware_adapi_v1_msgs): add diagnostics (`#54 <https://github.com/youtalk/autoware_adapi_msgs/issues/54>`_)
+* Contributors: Takagi, Isamu
+
 1.2.1 (2024-04-30)
 ------------------
 * build: set package versions to the package.xml files (`#55 <https://github.com/youtalk/autoware_adapi_msgs/issues/55>`_)
