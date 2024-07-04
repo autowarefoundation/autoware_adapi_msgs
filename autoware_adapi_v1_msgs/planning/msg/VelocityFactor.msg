@@ -12,4 +12,3 @@ uint16 status
 string behavior
 string sequence
 string detail
-autoware_adapi_v1_msgs/CooperationStatus[<=1] cooperation
