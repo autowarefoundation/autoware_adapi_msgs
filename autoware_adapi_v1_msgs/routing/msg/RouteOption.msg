@@ -2,4 +2,4 @@
 # https://autowarefoundation.github.io/autoware-documentation/main/design/autoware-interfaces/ad-api/features/routing/
 
 bool allow_goal_modification
-bool allow_while_following
+bool allow_while_using_route
