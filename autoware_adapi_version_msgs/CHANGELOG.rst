@@ -2,6 +2,11 @@
 Changelog for package autoware_adapi_version_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* feat: update v1.6.0 (`#63 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/63>`_)
+* Contributors: Takagi, Isamu
+
 1.3.0 (2024-07-03)
 ------------------
 
