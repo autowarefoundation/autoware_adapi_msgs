@@ -2,8 +2,8 @@
 Changelog for package autoware_adapi_v1_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.7.0 (2024-11-20)
+------------------
 * feat(planning): add new planning behavior (adaptive-cruise) (`#67 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/67>`_)
 * feat(autoware_adapi_v1_msgs): add new planning behavior "run-out" (`#65 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/65>`_)
 * feat: update v1.6.0 (`#63 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/63>`_)
