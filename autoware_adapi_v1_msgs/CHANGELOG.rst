@@ -2,8 +2,8 @@
 Changelog for package autoware_adapi_v1_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.6.1 (2024-11-20)
+------------------
 * feat: update v1.6.0 (`#63 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/63>`_)
 * feat(autoware_adapi_v1_msgs): add route following check option (`#61 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/61>`_)
 * Contributors: Takagi, Isamu
