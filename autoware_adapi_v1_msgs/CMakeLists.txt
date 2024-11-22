@@ -13,6 +13,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   manual/msg/HazardLightsCommand.msg
   manual/msg/ManualControlMode.msg
   manual/msg/ManualControlModeStatus.msg
+  manual/msg/ManualOperatorStatus.msg
   manual/msg/PedalCommand.msg
   manual/msg/SteerCommand.msg
   manual/msg/TurnIndicatorsCommand.msg
