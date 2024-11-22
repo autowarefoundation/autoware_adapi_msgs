@@ -8,6 +8,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   common/msg/ResponseStatus.msg
   localization/msg/LocalizationInitializationState.msg
   localization/srv/InitializeLocalization.srv
+  manual/msg/AccelCommand.msg
+  manual/msg/GearCommand.msg
+  manual/msg/HazardLightsCommand.msg
+  manual/msg/PedalCommand.msg
+  manual/msg/SteerCommand.msg
+  manual/msg/TurnIndicatorsCommand.msg
   routing/msg/RouteState.msg
   routing/msg/Route.msg
   routing/msg/RouteData.msg
