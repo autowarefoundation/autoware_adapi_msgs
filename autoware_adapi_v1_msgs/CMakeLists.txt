@@ -11,9 +11,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   manual/msg/AccelCommand.msg
   manual/msg/GearCommand.msg
   manual/msg/HazardLightsCommand.msg
+  manual/msg/ManualControlMode.msg
+  manual/msg/ManualControlModeStatus.msg
   manual/msg/PedalCommand.msg
   manual/msg/SteerCommand.msg
   manual/msg/TurnIndicatorsCommand.msg
+  manual/srv/SelectManualControlMode.srv
   routing/msg/RouteState.msg
   routing/msg/Route.msg
   routing/msg/RouteData.msg
