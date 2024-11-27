@@ -1,2 +1,2 @@
 builtin_interfaces/Time stamp
-float32 accel
+float32 steering_tire_angle

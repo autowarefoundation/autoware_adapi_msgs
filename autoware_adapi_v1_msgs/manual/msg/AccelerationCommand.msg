@@ -1,2 +1,2 @@
 builtin_interfaces/Time stamp
-float32 steer
+float32 acceleration
