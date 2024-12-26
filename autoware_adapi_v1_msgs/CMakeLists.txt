@@ -39,6 +39,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   planning/srv/SetCooperationCommands.srv
   planning/srv/SetCooperationPolicies.srv
   planning/srv/GetCooperationPolicies.srv
+  planning/msg/PlanningConstraints.msg
+  planning/msg/PlanningConstraintsArray.msg
+  planning/srv/PlanningConstraintsArray.srv
   system/msg/MrmState.msg
   system/msg/Heartbeat.msg
   system/msg/DiagGraphStruct.msg
