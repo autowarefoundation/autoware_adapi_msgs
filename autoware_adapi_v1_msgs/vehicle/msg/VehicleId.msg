@@ -1,0 +1,2 @@
+string type
+strint id
