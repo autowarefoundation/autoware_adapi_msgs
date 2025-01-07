@@ -26,11 +26,14 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   perception/msg/DynamicObjectKinematics.msg
   perception/msg/DynamicObjectPath.msg
   perception/msg/ObjectClassification.msg
+  planning/msg/ControlPoint.msg
   planning/msg/SteeringFactor.msg
   planning/msg/SteeringFactorArray.msg
   planning/msg/VelocityFactor.msg
   planning/msg/VelocityFactorArray.msg
   planning/msg/PlanningBehavior.msg
+  planning/msg/PlanningFactor.msg
+  planning/msg/PlanningFactorArray.msg
   planning/msg/PlanningSequence.msg
   planning/msg/CooperationCommand.msg
   planning/msg/CooperationDecision.msg
