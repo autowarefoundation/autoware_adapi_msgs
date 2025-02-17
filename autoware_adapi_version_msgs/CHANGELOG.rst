@@ -2,6 +2,12 @@
 Changelog for package autoware_adapi_version_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fix(autoware_adapi_msgs): fix links to issues in CHANGELOG.rst files (`#72 <https://github.com/sasakisasaki/autoware_adapi_msgs/issues/72>`_)
+* feat: update v1.6.0 (`#63 <https://github.com/sasakisasaki/autoware_adapi_msgs/issues/63>`_)
+* Contributors: Esteve Fernandez, Takagi, Isamu
+
 1.3.0 (2024-07-03)
 ------------------
 
