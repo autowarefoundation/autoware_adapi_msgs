@@ -6,6 +6,7 @@ ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   common/msg/ResponseStatus.msg
+  common/msg/KeyValue.msg
   localization/msg/LocalizationInitializationState.msg
   localization/srv/InitializeLocalization.srv
   routing/msg/RouteState.msg
@@ -36,6 +37,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   planning/msg/CooperationDecision.msg
   planning/msg/CooperationPolicy.msg
   planning/msg/CooperationStatus.msg
+  planning/msg/CooperationStatusArray.msg
   planning/srv/SetCooperationCommands.srv
   planning/srv/SetCooperationPolicies.srv
   planning/srv/GetCooperationPolicies.srv
