@@ -2,8 +2,8 @@
 Changelog for package autoware_adapi_v1_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.7.0 (2025-02-18)
+------------------
 * feat: drop route following check option (`#71 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/71>`_)
 * fix(autoware_adapi_msgs): fix links to issues in CHANGELOG.rst files (`#72 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/72>`_)
 * feat(planning): add new planning behavior (adaptive-cruise) (`#67 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/67>`_)
