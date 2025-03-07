@@ -2,12 +2,18 @@
 Changelog for package autoware_adapi_version_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.7.0 (2025-02-18)
+------------------
+* fix(autoware_adapi_msgs): fix links to issues in CHANGELOG.rst files (`#72 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/72>`_)
+* feat: update v1.6.0 (`#63 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/63>`_)
+* Contributors: Esteve Fernandez, Takagi, Isamu
+
 1.3.0 (2024-07-03)
 ------------------
 
 1.2.1 (2024-04-30)
 ------------------
-* build: set package versions to the package.xml files (`#55 <https://github.com/youtalk/autoware_adapi_msgs/issues/55>`_)
+* build: set package versions to the package.xml files (`#55 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/55>`_)
   * version 1.1.0
   * separate to build\_ and exec\_ depends
   * update description
@@ -24,7 +30,7 @@ Changelog for package autoware_adapi_version_msgs
   ---------
   Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
   Co-authored-by: Takagi, Isamu <43976882+isamu-takagi@users.noreply.github.com>
-* feat(autoware_adapi_version_msgs): add version messages (`#2 <https://github.com/youtalk/autoware_adapi_msgs/issues/2>`_)
+* feat(autoware_adapi_version_msgs): add version messages (`#2 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/2>`_)
   Co-authored-by: Ryohsuke Mitsudome <43976834+mitsudome-r@users.noreply.github.com>
   Co-authored-by: Kenji Miyake <31987104+kenji-miyake@users.noreply.github.com>
 * Contributors: Takagi, Isamu, Yutaka Kondo
