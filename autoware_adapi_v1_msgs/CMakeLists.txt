@@ -8,7 +8,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   common/msg/ResponseStatus.msg
   localization/msg/LocalizationInitializationState.msg
   localization/srv/InitializeLocalization.srv
-  manual/msg/PedalCommand.msg
+  manual/msg/PedalsCommand.msg
   manual/msg/AccelerationCommand.msg
   manual/msg/VelocityCommand.msg
   manual/msg/SteeringCommand.msg
