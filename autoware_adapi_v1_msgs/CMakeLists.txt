@@ -51,6 +51,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   planning/srv/SetCooperationCommands.srv
   planning/srv/SetCooperationPolicies.srv
   planning/srv/GetCooperationPolicies.srv
+  system/msg/RtiState.msg
   system/msg/MrmState.msg
   system/msg/MrmRequest.msg
   system/msg/MrmRequestList.msg
