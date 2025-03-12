@@ -66,6 +66,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   vehicle/msg/Gear.msg
   vehicle/msg/HazardLights.msg
   vehicle/msg/TurnIndicators.msg
+  vehicle/msg/VehicleMetrics.msg
   vehicle/msg/VehicleStatus.msg
   vehicle/msg/VehicleDimensions.msg
   vehicle/msg/VehicleKinematics.msg
