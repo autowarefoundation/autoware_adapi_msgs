@@ -17,7 +17,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   manual/msg/HazardLightsCommand.msg
   manual/msg/ManualControlMode.msg
   manual/msg/ManualControlModeStatus.msg
-  manual/msg/ManualOperatorStatus.msg
+  manual/msg/ManualOperatorHeartbeat.msg
   manual/srv/ListManualControlMode.srv
   manual/srv/SelectManualControlMode.srv
   routing/msg/RouteState.msg
