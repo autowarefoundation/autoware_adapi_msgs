@@ -69,10 +69,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   vehicle/msg/VehicleMetrics.msg
   vehicle/msg/VehicleStatus.msg
   vehicle/msg/VehicleDimensions.msg
+  vehicle/msg/VehicleSpecs.msg
   vehicle/msg/VehicleKinematics.msg
   vehicle/srv/SetDoorCommand.srv
   vehicle/srv/GetDoorLayout.srv
   vehicle/srv/GetVehicleDimensions.srv
+  vehicle/srv/GetVehicleSpecs.srv
   DEPENDENCIES
     builtin_interfaces
     geographic_msgs
