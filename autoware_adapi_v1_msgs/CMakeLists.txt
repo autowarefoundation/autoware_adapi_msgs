@@ -8,6 +8,18 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   common/msg/ResponseStatus.msg
   localization/msg/LocalizationInitializationState.msg
   localization/srv/InitializeLocalization.srv
+  manual/msg/PedalsCommand.msg
+  manual/msg/AccelerationCommand.msg
+  manual/msg/VelocityCommand.msg
+  manual/msg/SteeringCommand.msg
+  manual/msg/GearCommand.msg
+  manual/msg/TurnIndicatorsCommand.msg
+  manual/msg/HazardLightsCommand.msg
+  manual/msg/ManualControlMode.msg
+  manual/msg/ManualControlModeStatus.msg
+  manual/msg/ManualOperatorHeartbeat.msg
+  manual/srv/ListManualControlMode.srv
+  manual/srv/SelectManualControlMode.srv
   routing/msg/RouteState.msg
   routing/msg/Route.msg
   routing/msg/RouteData.msg
@@ -42,7 +54,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   planning/srv/SetCooperationCommands.srv
   planning/srv/SetCooperationPolicies.srv
   planning/srv/GetCooperationPolicies.srv
+  system/msg/RtiState.msg
   system/msg/MrmState.msg
+  system/msg/MrmRequest.msg
+  system/msg/MrmRequestList.msg
+  system/srv/SendMrmRequest.srv
   system/msg/Heartbeat.msg
   system/msg/DiagGraphStruct.msg
   system/msg/DiagGraphStatus.msg
@@ -56,12 +72,15 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   vehicle/msg/Gear.msg
   vehicle/msg/HazardLights.msg
   vehicle/msg/TurnIndicators.msg
+  vehicle/msg/VehicleMetrics.msg
   vehicle/msg/VehicleStatus.msg
   vehicle/msg/VehicleDimensions.msg
+  vehicle/msg/VehicleSpecs.msg
   vehicle/msg/VehicleKinematics.msg
   vehicle/srv/SetDoorCommand.srv
   vehicle/srv/GetDoorLayout.srv
   vehicle/srv/GetVehicleDimensions.srv
+  vehicle/srv/GetVehicleSpecs.srv
   DEPENDENCIES
     builtin_interfaces
     geographic_msgs
