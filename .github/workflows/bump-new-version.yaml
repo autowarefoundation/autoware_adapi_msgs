@@ -23,7 +23,7 @@ on:
       source_repository_owner:
         description: The owner of the source repository (organization or user).
         required: false
-        default: 'autowarefoundation'
+        default: autowarefoundation
 
 jobs:
   update-versions:
