@@ -65,6 +65,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   system/msg/DiagNodeStruct.msg
   system/msg/DiagNodeStatus.msg
   system/msg/DiagLinkStruct.msg
+  system/srv/ResetDiagGraph.srv
   vehicle/msg/DoorCommand.msg
   vehicle/msg/DoorLayout.msg
   vehicle/msg/DoorStatus.msg
