@@ -57,7 +57,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   system/msg/MrmRequest.msg
   system/msg/MrmRequestList.msg
   system/srv/SendMrmRequest.srv
-  system/srv/ListMrmDescription.srv
+  system/srv/ListMrmDescriptions.srv
   system/msg/Heartbeat.msg
   system/msg/DiagGraphStruct.msg
   system/msg/DiagGraphStatus.msg
