@@ -6,6 +6,7 @@ ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   common/msg/ResponseStatus.msg
+  common/msg/KvString.msg
   localization/msg/LocalizationInitializationState.msg
   localization/srv/InitializeLocalization.srv
   manual/msg/PedalsCommand.msg
@@ -61,9 +62,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   system/msg/Heartbeat.msg
   system/msg/DiagGraphStruct.msg
   system/msg/DiagGraphStatus.msg
-  system/msg/DiagLinkStruct.msg
+  system/msg/DiagLeafStruct.msg
+  system/msg/DiagLeafStatus.msg
   system/msg/DiagNodeStruct.msg
   system/msg/DiagNodeStatus.msg
+  system/msg/DiagLinkStruct.msg
+  system/srv/ResetDiagGraph.srv
   vehicle/msg/DoorCommand.msg
   vehicle/msg/DoorLayout.msg
   vehicle/msg/DoorStatus.msg
