@@ -2,6 +2,9 @@
 Changelog for package autoware_adapi_version_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.7.0 (2025-02-18)
 ------------------
 * fix(autoware_adapi_msgs): fix links to issues in CHANGELOG.rst files (`#72 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/72>`_)

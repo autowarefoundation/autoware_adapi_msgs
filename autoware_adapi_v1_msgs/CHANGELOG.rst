@@ -2,6 +2,21 @@
 Changelog for package autoware_adapi_v1_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* feat(autoware_adapi_v1_msgs): add parent field to diag leaf message (`#97 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/97>`_)
+* fix(autoware_adapi_v1_msgs): fix description response (`#96 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/96>`_)
+* feat(autoware_adapi_v1_msgs): update diag messages (`#92 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/92>`_)
+* feat(autoware_adapi_v1_msgs): add mrm description (`#94 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/94>`_)
+* feat(autoware_adapi_v1_msgs): rename mrm request sender (`#91 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/91>`_)
+* feat(autoware_adapi_v1_msgs): add mrm request messages (`#83 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/83>`_)
+* feat(autoware_adapi_v1_msgs): add vehicle spec message (`#85 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/85>`_)
+* feat(autoware_adapi_v1_msgs): add metrics message (`#84 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/84>`_)
+* feat(autoware_adapi_v1_msgs): update manual control messages (`#86 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/86>`_)
+* feat(autoware_adapi_v1_msgs): add RTI message (`#47 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/47>`_)
+* feat(autoware_adapi_v1_msgs): add manual control messages (`#82 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/82>`_)
+* Contributors: Takagi, Isamu
+
 1.7.0 (2025-02-18)
 ------------------
 * feat: drop route following check option (`#71 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/71>`_)
