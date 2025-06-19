@@ -2,8 +2,8 @@
 Changelog for package autoware_adapi_v1_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.9.0 (2025-06-19)
+------------------
 * feat(autoware_adapi_v1_msgs): add parent field to diag leaf message (`#97 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/97>`_)
 * fix(autoware_adapi_v1_msgs): fix description response (`#96 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/96>`_)
 * feat(autoware_adapi_v1_msgs): update diag messages (`#92 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/92>`_)
