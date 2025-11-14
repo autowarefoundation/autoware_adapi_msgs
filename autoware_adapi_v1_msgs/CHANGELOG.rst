@@ -2,8 +2,8 @@
 Changelog for package autoware_adapi_v1_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.10.0 (2025-11-14)
+-------------------
 * feat(autoware_adapi_v1_msgs): add ROUNDABOUT support (`#102 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/102>`_)
   feat(autoware_adapi_v1_msgs): add ROUNDABOUT constant to PlanningBehavior message
 * Contributors: Sho Iwasawa
