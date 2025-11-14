@@ -2,6 +2,12 @@
 Changelog for package autoware_adapi_v1_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.9.1 (2025-11-14)
+------------------
+* feat(autoware_adapi_v1_msgs): add ROUNDABOUT support (`#102 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/102>`_)
+  feat(autoware_adapi_v1_msgs): add ROUNDABOUT constant to PlanningBehavior message
+* Contributors: Sho Iwasawa
+
 1.9.0 (2025-06-19)
 ------------------
 * feat(autoware_adapi_v1_msgs): add parent field to diag leaf message (`#97 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/97>`_)
