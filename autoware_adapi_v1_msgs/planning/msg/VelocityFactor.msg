@@ -12,7 +12,7 @@ geometry_msgs/Pose pose
 float32 distance
 # Current status (use status constants above)
 uint16 status
-# Behavior type (see PlanningBehavior.msg for valid values)
+# Behavior type (see PlanningBehavior.msg for typical values, any name is available for user extensions)
 string behavior
 # Planning sequence identifier
 string sequence
