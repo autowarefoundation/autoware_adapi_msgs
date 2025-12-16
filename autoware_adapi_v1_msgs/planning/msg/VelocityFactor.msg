@@ -6,7 +6,7 @@ uint16 APPROACHING = 1  # Vehicle is approaching the factor
 uint16 STOPPED = 2      # Vehicle has stopped due to the factor
 
 # fields
-# Pose of the velocity factor in map frame
+# Pose of the velocity factor in VelocityFactorArray.header.frame_id
 geometry_msgs/Pose pose
 # Distance to the velocity factor [m]
 float32 distance
