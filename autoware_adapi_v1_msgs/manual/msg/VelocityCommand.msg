@@ -1,3 +1,3 @@
 builtin_interfaces/Time stamp
-# [m/s]. Range: >= 0.0
+# [m/s]. Negative value is backward.
 float32 velocity
