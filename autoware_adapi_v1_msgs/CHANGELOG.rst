@@ -2,6 +2,24 @@
 Changelog for package autoware_adapi_v1_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* docs: add documentation to remaining msg/srv fields (`#108 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/108>`_)
+  * add comments
+  * Apply suggestion from @youtalk
+  * Update autoware_adapi_v1_msgs/perception/msg/ObjectClassification.msg
+  ---------
+* docs: add unit and range documentation to message fields (`#107 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/107>`_)
+  * docs: add unit and range documentation to message fields
+  Add inline comments to clarify units and valid ranges for:
+  - PedalsCommand.msg: throttle/brake range (0.0-1.0)
+  - SteeringCommand.msg: steering_tire_angle [rad], velocity [rad/s]
+  - VelocityFactor.msg: distance [m], field descriptions
+  Related to https://github.com/autowarefoundation/autoware_adapi_msgs/issues/106
+  * docs: clarify behavior field accepts user-defined values
+  * Update autoware_adapi_v1_msgs/planning/msg/VelocityFactor.msg
+* Contributors: Yutaka Kondo
+
 1.9.1 (2025-11-14)
 ------------------
 * feat(autoware_adapi_v1_msgs): add ROUNDABOUT support (`#102 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/102>`_)
