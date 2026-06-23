@@ -2,8 +2,8 @@
 Changelog for package autoware_adapi_v1_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.9.2 (2026-06-23)
+------------------
 * docs: add documentation to remaining msg/srv fields (`#108 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/108>`_)
   * add comments
   * Apply suggestion from @youtalk
